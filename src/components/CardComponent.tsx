@@ -87,7 +87,10 @@ export const CardComponent = () => {
                     <MainContainer key={detail.id}>
                         <Container>
                             <ImageWrapper className="image">
-                                <Image src={detail.imageUrl} alt="card image1" />
+                                <Image
+                                    src={typeof detail.imageUrl === "string" ? detail.imageUrl : detail.imageUrl.src}
+                                    alt="card image1"
+                                />
                             </ImageWrapper>
                             <TextWrapper className="text">
                                 <Time>{detail.time}</Time>

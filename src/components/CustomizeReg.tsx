@@ -66,11 +66,13 @@ const CustomizeReg = () => {
         username: "",
         email: "",
         phoneNumber: "",
+        numberOfAdults: "",
+        numberOfChildren: ""
     })
     const [errorMessage, getErrorMessage] = useState("")
     const [showSuccess, setShowSuccess] = useState(false)
 
-    const handleChange = (event) => {
+    const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         const { name, value } = event.target;
         setFormData({
             ...formData,
@@ -91,8 +93,8 @@ const CustomizeReg = () => {
                 },
                 body: JSON.stringify({
                     ...formData,
-                    numberOfAdults: Number(formData.numberOfAdults),
-                    numberOfChildren: Number(formData.numberOfChildren)
+                    numberOfAdults: Number(formData.numberOfAdults) || 0,
+                    numberOfChildren: Number(formData.numberOfChildren) || 0
                 })
             });
 
@@ -103,6 +105,8 @@ const CustomizeReg = () => {
                     username: "",
                     email: "",
                     phoneNumber: "",
+                    numberOfAdults: "",
+                    numberOfChildren: ""
                 });
 
                 router.push("/thankyou"); 
@@ -127,7 +131,9 @@ const CustomizeReg = () => {
                     {showSuccess && <h4 style={{ color: '#2ecc71' }}>Form submitted successfully! Soon our experts will contact you.</h4>}
                     <input type='text' className="form-control mb-2" name="username" value={formData.username} placeholder="Your Name" onChange={handleChange} required />
                     <input type='email' className="form-control mb-2" name="email" value={formData.email} placeholder="Your Email" onChange={handleChange} required />
-                    <input type='tel' className="form-control mb-2" name="phoneNumber" value={formData.phoneNumber} pattern="[6-9]{1}[0-9]{9}" maxLength="10" placeholder="Phone Number" onChange={handleChange} required />
+                    <input type='tel' className="form-control mb-2" name="phoneNumber" value={formData.phoneNumber} pattern="[6-9]{1}[0-9]{9}" maxLength={10} placeholder="Phone Number" onChange={handleChange} required />
+                    <input type='number' className="form-control mb-2" name="numberOfAdults" value={formData.numberOfAdults} placeholder="Number Of Adults" onChange={handleChange} required />
+                    <input type='number' className="form-control mb-2" name="numberOfChildren" value={formData.numberOfChildren} placeholder="Number Of Children" onChange={handleChange} required />
                     <Button type="submit" disabled={isSubmitting}>
                         {isSubmitting ? "Submitting..." : "Submit"}
                     </Button>

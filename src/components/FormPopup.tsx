@@ -19,7 +19,6 @@ align-items:center;
 position:relative;
 color:#7E4555;
 margin-top:-2rem;
-// background-image:url(${bgImage});
 background-size:cover;
 border-bottom:none;
 }
@@ -126,14 +125,14 @@ Preferred Month: ${formData.email}
     return (
         <ModelWrapper show={show} onHide={onClose} centered>
             <Modal.Header closeButton>
-                <LogoImage src={logo} />
+                <LogoImage src={typeof logo === "string" ? logo : logo.src} />
                 <Modal.Title>Request Itinerary</Modal.Title>
             </Modal.Header>
 
             <ModalBody>
                 <FormWrapper autoComplete='off'>
                     <input type='text' className="form-control mb-2" name="userName" value={formData.userName} placeholder="Your Name" onChange={handleChange} required />
-                    <input type='tel' className="form-control mb-2" name="phoneNumber" value={formData.phoneNumber} pattern="[6-9]{1}[0-9]{9}" maxLength="10" placeholder="Phone Number" onChange={handleChange} required />
+                    <input type='tel' className="form-control mb-2" name="phoneNumber" value={formData.phoneNumber} pattern="[6-9]{1}[0-9]{9}" maxLength={10} placeholder="Phone Number" onChange={handleChange} required />
                     <input type='email' className="form-control mb-2" name="email" value={formData.email} placeholder="Your Email" onChange={handleChange} required />
                 </FormWrapper>
             </ModalBody>

@@ -5,6 +5,10 @@ import { FaWhatsapp, FaPhone } from "react-icons/fa";
 import { FormPopup } from "./FormPopup"
 import { useState } from "react";
 
+type ButtonsProps = {
+  type: "Economic" | "Deluxe" | "Premium";
+};
+
 const Container = styled.div`
   display:flex;
   justify-content:space-evenly;
@@ -26,7 +30,7 @@ const Button = styled.button`
   }
 `
 
-export const Buttons = ({ type }) => {
+export const Buttons = ({ type }: ButtonsProps) => {
     const [showForm, setShowForm] = useState(false)
 
     const phoneNumber = `${process.env.NEXT_PUBLIC_PHONE_NUMBER}`

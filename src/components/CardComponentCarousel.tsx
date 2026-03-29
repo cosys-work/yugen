@@ -153,7 +153,20 @@ const StyledPackageCard = styled(PackageCard)`
 `;
 
 
-const CardComponentCarousel = ({ title, slides }) => {
+type Slide = {
+  imageUrl: string | { src: string; height: number; width: number };
+  title: string;
+  time: string;
+  included: string | string[];
+  packages: { type: string; price: string }[];
+};
+
+interface CardComponentCarouselProps {
+  title: string;
+  slides: Slide[];
+}
+
+const CardComponentCarousel = ({ title, slides }: CardComponentCarouselProps) => {
   return (
     <Div>
       <Heading heading={title} />
