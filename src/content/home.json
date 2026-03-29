@@ -1,0 +1,40 @@
+{
+  "whatsTrending": {
+    "subHeading": "what's trending",
+    "title": "most booked package with us",
+    "subtitle": "feel the religious vibes with our exclusive group packages!",
+    "description": "The Char Dham Yatra is one of the most sacred Hindu pilgrimages in India, undertaken through the Himalayan regions of Uttarakhand. Our itinerary follows the traditional route sequence and avoids rushed travel or unsafe same-day long drives.",
+    "cta": "check itinerary",
+    "ctaLink": "/trending",
+    "backgroundColor": "#fdf5e6"
+  },
+  "atGlance": {
+    "subHeading": "Char Dham Yatra at a Glance",
+    "cards": [
+      { "title": "Starts from", "text": "Haridwar, Rishikesh, Dehradun, Delhi" },
+      { "title": "tour type", "text": "Road & Helicopter" },
+      { "title": "duration", "text": "6–12 Days" },
+      { "title": "Tour Cost", "text": "₹10k–₹2.4L per person" },
+      { "title": "Includes", "text": "Hotel, Meals, Transfers, VIP Darshan" },
+      { "title": "Other Start Points", "text": "Mumbai, Hyderabad, Chennai, Bengaluru" }
+    ]
+  },
+  "whoWeAre": {
+    "heading": "Who we are",
+    "intro": "Yugen India Travel is a growing, experience-driven travel organisation dedicated to spiritual and pilgrimage tourism across India. While we are a young company, our founder built this on over 10 years of hands-on expertise in designing and managing meaningful journeys.",
+    "subHeading": "Our journey so far",
+    "stats": [
+      "Successfully served 400+ devotees till date",
+      "Specialized in group-based pilgrimage tours, especially Char Dham Yatra",
+      "Planned operations to serve 800+ devotees in the 2026 season"
+    ],
+    "outro": "Every journey we design is backed by learning, ground experience, and on-field execution."
+  },
+  "testimonials": {
+    "heading": "Testimonials"
+  },
+  "alerts": {
+    "alert1": "Char Dham Temples are closed for winter | Registration mandatory | Limited season (May–Oct) | Stay tuned for the 2026 opening updates",
+    "alert2": "We Offer A Family Referral Advantage For Eligible Bookings."
+  }
+}

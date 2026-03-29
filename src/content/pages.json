@@ -1,0 +1,166 @@
+{
+  "privacy": {
+    "heading": "Privacy policy",
+    "sections": [
+      {
+        "title": "Purpose of Collecting Information",
+        "content": "We use your information to respond to enquiries, share itineraries, contact you for follow-ups, and improve our services."
+      },
+      {
+        "title": "Cookies and Tracking",
+        "content": "Our website may use basic cookies or analytics tools to understand traffic. You may disable cookies in your browser."
+      },
+      {
+        "title": "Information Sharing",
+        "content": "Information may be shared with service partners only after booking confirmation or when required by law."
+      },
+      {
+        "title": "Advertising & Communication",
+        "content": "By submitting details, you consent to being contacted via call, WhatsApp, SMS, or email. You may opt out anytime."
+      },
+      {
+        "title": "Data Security",
+        "content": "We use reasonable security measures including SSL encryption."
+      },
+      {
+        "title": "Data Retention",
+        "content": "Information is retained only as long as necessary and may be deleted upon request."
+      },
+      {
+        "title": "Children's Privacy",
+        "content": "Our services are not intended for individuals under 18."
+      },
+      {
+        "title": "Changes to Policy",
+        "content": "We may update this policy at any time."
+      }
+    ],
+    "contactSubheading": "Contact Information"
+  },
+  "terms": {
+    "heading": "TERMS & CONDITIONS – YUGEN INDIA TRAVEL",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "These Terms & Conditions govern the use of the website and services offered by Yugen India Travel (\"we\", \"our\", \"us\"). By accessing our website or submitting an enquiry, you agree to be bound by these Terms & Conditions."
+      },
+      {
+        "title": "Nature of Services",
+        "content": "Yugen India Travel is a privately operated travel service provider offering travel planning and booking assistance for destinations within India. We are not affiliated with any government body or temple authority."
+      },
+      {
+        "title": "Use of Website",
+        "content": "The website is for general information and enquiry purposes only. Submitting an enquiry does not guarantee availability or booking confirmation."
+      },
+      {
+        "title": "Bookings & Confirmations",
+        "content": "All bookings are subject to availability and confirmation by service providers. Final confirmation is provided only after mutual agreement and required advance payment."
+      },
+      {
+        "title": "Payments",
+        "content": "Payments, if applicable, are accepted offline or through mutually agreed methods. We do not process online payments through our website."
+      },
+      {
+        "title": "Cancellations & Refunds",
+        "content": "Cancellation and refund terms depend on service providers and will be communicated at the time of booking."
+      },
+      {
+        "title": "Travel Risks & Responsibilities",
+        "content": "Pilgrimage tours may involve high-altitude travel and weather dependency. Travellers must assess their health before travel. We are not responsible for delays, injuries, or disruptions beyond our control."
+      },
+      {
+        "title": "Force Majeure",
+        "content": "We are not liable for delays caused by natural disasters, weather, government restrictions, or events beyond our control."
+      },
+      {
+        "title": "Limitation of Liability",
+        "content": "We act only as a facilitator and are not responsible for acts or omissions of third-party service providers."
+      },
+      {
+        "title": "User Conduct",
+        "content": "Users must not misuse the website or submit false information."
+      },
+      {
+        "title": "Intellectual Property",
+        "content": "All website content belongs to Yugen India Travel and may not be copied without permission."
+      },
+      {
+        "title": "Third-Party Links",
+        "content": "We are not responsible for third-party websites linked from our site."
+      },
+      {
+        "title": "Governing Law & Jurisdiction",
+        "content": "These terms are governed by the laws of India. Jurisdiction shall be Bhopal, Madhya Pradesh."
+      }
+    ],
+    "contactSubheading": "Contact Information"
+  },
+  "refund": {
+    "heading": "REFUND & CANCELLATION POLICY – YUGEN INDIA TRAVEL",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "This Refund & Cancellation Policy governs cancellations and refunds for services offered by Yugen India Travel (\"we\", \"our\", \"us\"). By submitting an enquiry or confirming a booking, you agree to this policy."
+      },
+      {
+        "title": "Nature of Bookings",
+        "content": "Yugen India Travel operates on an enquiry-based booking model. Bookings are confirmed only after mutual agreement and receipt of advance payment, where applicable."
+      },
+      {
+        "title": "Cancellation by Customer",
+        "content": "Cancellation requests must be communicated in writing via email or WhatsApp. Cancellation charges depend on service providers such as hotels, transport operators, and vendors. Charges may vary based on travel dates, season, and time of cancellation.",
+        "bullets": [
+          "Cancellation requests must be communicated in writing via email or WhatsApp.",
+          "Cancellation charges depend on service providers such as hotels, transport operators, and vendors.",
+          "Charges may vary based on travel dates, season, and time of cancellation."
+        ]
+      },
+      {
+        "title": "Indicative Cancellation Charges",
+        "bullets": [
+          "More than 15 days before travel: Minimal or no cancellation charges (subject to supplier policy)",
+          "7–15 days before travel: Partial cancellation charges may apply",
+          "Less than 7 days before travel or no-show: No refund may be applicable"
+        ],
+        "note": "The exact cancellation terms will be shared at the time of booking confirmation."
+      },
+      {
+        "title": "Refund Policy",
+        "bullets": [
+          "Refunds, if applicable, will be processed after deducting cancellation charges levied by service providers.",
+          "Refund processing time may take 7–14 working days.",
+          "Refunds will be made through the original mode of payment or mutually agreed method.",
+          "We are not responsible for delays caused by banks or payment service providers."
+        ]
+      },
+      {
+        "title": "Cancellation by Yugen India Travel",
+        "content": "We reserve the right to cancel a booking due to unavoidable circumstances such as:",
+        "bullets": [
+          "Natural disasters",
+          "Weather conditions",
+          "Government restrictions",
+          "Operational issues"
+        ],
+        "note": "In such cases, we will offer a suitable alternative or refund as per supplier policies."
+      },
+      {
+        "title": "Non-Refundable Components",
+        "content": "Certain services such as permits, helicopter bookings, peak-season hotels, or special arrangements may be non-refundable. These will be clearly communicated at the time of booking."
+      },
+      {
+        "title": "Force Majeure",
+        "content": "No refunds shall be applicable for cancellations caused due to force majeure events beyond our control."
+      },
+      {
+        "title": "Changes to Bookings",
+        "content": "Any changes requested after confirmation are subject to availability and additional charges, if applicable."
+      },
+      {
+        "title": "Policy Updates",
+        "content": "Yugen India Travel reserves the right to modify this policy at any time. Updates will be effective upon posting."
+      }
+    ],
+    "contactSubheading": "Contact Information"
+  }
+}

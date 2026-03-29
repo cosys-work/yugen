@@ -1,0 +1,32 @@
+export const Reviews = [
+  {
+    id: 1,
+    name: "✔ Verified Pilgrim | Mumbai | Do Dham (Kedarnath–Badrinath)",
+    description: "Our Do Dham experience with Yugen India was good. We were 4 members from Mumbai, and Ashish managed everything smoothly. Overall, a satisfying and well-planned trip."
+  },
+  {
+    id: 2,
+    name: "✔ Verified Pilgrims | Family Group | Char Dham Yatra (Road)",
+    description: "We were 12 people (three families) traveling together for Char Dham Yatra by road. It was a long journey, but the 10 days passed very easily. Driver was safe and polite, food was simple and good, hotels were comfortable. Darshan at each dham was calm and not rushed. We are thankful and highly recommend Yugen India."
+  },
+  {
+    id: 3,
+    name: "✔ Verified Pilgrim | North India | Char Dham Yatra",
+    description: "Overall, the trip was good. Due to heavy crowd on the route, once we had to leave the SUV and walk to the hotel to avoid missing darshan. Apart from that, food and hotels were good for the price paid."
+  },
+  {
+    id: 4,
+    name: "✔ Verified Pilgrim | Kolkata | Kedarnath Yatra with Parents",
+    description: "We booked online and were hesitant at first, but everything went as planned. We reached Delhi on our own, and the next morning a private cab was arranged. The 10 km trek was exhausting as we hadn't prepared much, but darshan made everything worth it. It was a memorable trip for our family."
+  },
+  {
+    id: 5,
+    name: "✔ Verified Pilgrim | Senior Parents | Char Dham Yatra",
+    description: "This is not a luxury trip and people should be prepared for heavy crowds. If budget allows, helicopter is a better option. For people like us, expectations were realistic and met. Darshan happened peacefully, and that is what matters most. Very grateful to the Yugen team for being available on call throughout."
+  },
+  {
+    id: 6,
+    name: "✔ Verified Pilgrim | Haridwar | Private Tour",
+    description: "We hired a private tour from Haridwar. Everything went well overall. Hotels were good, though one hotel's staff was not very cooperative. Still, thanks to Team Yugen India for the arrangements."
+  }
+];
