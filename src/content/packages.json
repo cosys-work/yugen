@@ -8,7 +8,7 @@
       "time": "9N/10D",
       "included": ["🍛 meals", "🚗 sightseeing", "🏨 hotel"],
       "packages": [
-        { "type": "Economic", "price": "₹19,499/pp" },
+        { "type": "Economic", "price": "₹18,499/pp" },
         { "type": "Deluxe", "price": "₹24,499/pp" },
         { "type": "Premium", "price": "Price on request" }
       ]
@@ -21,7 +21,7 @@
       "time": "8N/9D",
       "included": ["🍛 meals", "🚗 sightseeing", "🏨 hotel"],
       "packages": [
-        { "type": "Economic", "price": "₹19,499/pp" },
+        { "type": "Economic", "price": "₹18,499/pp" },
         { "type": "Deluxe", "price": "₹24,499/pp" },
         { "type": "Premium", "price": "Price on request" }
       ]
@@ -47,9 +47,9 @@
       "time": "5N/6D",
       "included": ["🍛 meals", "🚗 sightseeing", "🏨 hotel"],
       "packages": [
-        { "type": "Economic", "price": "₹2.20L/pp" },
-        { "type": "Deluxe", "price": "price on request" },
-        { "type": "Premium", "price": "Price on request" }
+        { "type": "Economic", "price": "₹_" },
+        { "type": "Deluxe", "price": "₹_" },
+        { "type": "Premium", "price": "₹2.20L/pp" }
       ]
     },
     {
@@ -60,8 +60,8 @@
       "time": "4N/5D",
       "included": ["🍛 meals", "🚗 sightseeing", "🏨 hotel"],
       "packages": [
-        { "type": "Economic", "price": "₹12,999/pp" },
-        { "type": "Deluxe", "price": "₹17,999/pp" },
+        { "type": "Economic", "price": "₹9,999/pp" },
+        { "type": "Deluxe", "price": "₹14,999/pp" },
         { "type": "Premium", "price": "Price on request" }
       ]
     },
@@ -73,7 +73,7 @@
       "time": "5N/6D",
       "included": ["🍛 meals", "🚗 sightseeing"],
       "packages": [
-        { "type": "Economic", "price": "₹ 14,999/pp" },
+        { "type": "Economic", "price": "₹ 12,999/pp" },
         { "type": "Deluxe", "price": "₹19,999/pp" },
         { "type": "Premium", "price": "Price on request" }
       ]
@@ -86,9 +86,9 @@
       "time": "2D/1N",
       "included": ["🍛 meals", "🚗 sightseeing", "🏨 hotel"],
       "packages": [
-        { "type": "Economic", "price": "₹1,30,000/pp" },
-        { "type": "Deluxe", "price": "price on request" },
-        { "type": "Premium", "price": "Price on request" }
+        { "type": "Economic", "price": "₹" },
+        { "type": "Deluxe", "price": "₹" },
+        { "type": "Premium", "price": "₹1,45,000/pp" }
       ]
     },
     {
@@ -99,7 +99,7 @@
       "time": "3N/4D",
       "included": ["🍛 meals", "🚗 sightseeing", "🏨 hotel"],
       "packages": [
-        { "type": "Economic", "price": "₹9,999/pp" },
+        { "type": "Economic", "price": "₹6,999/pp" },
         { "type": "Deluxe", "price": "₹14,999/pp" },
         { "type": "Premium", "price": "Price on request" }
       ]
