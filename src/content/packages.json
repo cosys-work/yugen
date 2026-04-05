@@ -47,9 +47,9 @@
       "time": "5N/6D",
       "included": ["🍛 meals", "🚗 sightseeing", "🏨 hotel"],
       "packages": [
-        { "type": "Economic", "price": "₹_" },
-        { "type": "Deluxe", "price": "₹_" },
-        { "type": "Premium", "price": "₹2.20L/pp" }
+        { "type": "Economic", "price": "₹__" },
+        { "type": "Deluxe", "price": "₹__" },
+        { "type": "Premium", "price": "₹2.30L/pp" }
       ]
     },
     {
@@ -70,7 +70,7 @@
       "category": "do dham",
       "image": "PackageImage/image7.webp",
       "title": "Kedarnath Badrinath Private tour by Road from Delhi",
-      "time": "5N/6D",
+      "time": "6N/7D",
       "included": ["🍛 meals", "🚗 sightseeing"],
       "packages": [
         { "type": "Economic", "price": "₹ 12,999/pp" },
@@ -80,14 +80,14 @@
     },
     {
       "id": 8,
-      "category": "do dham",
+      "category": "Do Dham",
       "image": "PackageImage/image8.webp",
       "title": "Kedarnath Badrinath by Helicopter from Dehradun",
       "time": "2D/1N",
       "included": ["🍛 meals", "🚗 sightseeing", "🏨 hotel"],
       "packages": [
-        { "type": "Economic", "price": "₹" },
-        { "type": "Deluxe", "price": "₹" },
+        { "type": "Economic", "price": "₹__" },
+        { "type": "Deluxe", "price": "₹__" },
         { "type": "Premium", "price": "₹1,45,000/pp" }
       ]
     },
