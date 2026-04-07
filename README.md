@@ -1,0 +1,1 @@
+Yūgen (幽玄) is a foundational Japanese aesthetic concept referring to a profound, mysterious sense of the beauty of the universe and the sad beauty of human suffering. It represents a "dim," "hidden," or "subtle" depth—a, quiet grace that suggests more than it shows, inviting viewers to feel, rather than define, its beauty.
