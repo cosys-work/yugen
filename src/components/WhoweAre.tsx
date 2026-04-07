@@ -1,6 +1,7 @@
 import { Heading } from './Heading'
 import styled from 'styled-components'
 import { TiTick } from "react-icons/ti";
+import homeContent from "@/content/home.json"
 
 const Div = styled.div`
 margin-top:clamp(1%,2vw,3%);
@@ -30,18 +31,25 @@ text-align:left;
 const Li = styled.li`
 font-size:clamp(1.3rem,2vw,1.6rem);
 `
-const WhoweAre = ({ heading }) => {
+
+interface WhoweAreProps {
+  heading?: string;
+}
+
+const WhoweAre = ({ heading }: WhoweAreProps) => {
+    const { whoWeAre } = homeContent;
+
     return (
         <Div>
-            <Heading heading={heading} />
-            <P>Yugen India Travel is a growing, experience-driven travel organisation dedicated to spiritual and pilgrimage tourism across India. While we are a young company, our founder built this on over 10 years of hands-on expertise in designing and managing meaningful journeys.</P>
-            <SubHeading>Our journey so far</SubHeading>
+            <Heading heading={heading || whoWeAre.heading} />
+            <P>{whoWeAre.intro}</P>
+            <SubHeading>{whoWeAre.subHeading}</SubHeading>
             <Ul>
-                <Li><TiTick style={{ color: "#FD8F8F" }} />Successfully served 400+ devotees till date</Li>
-                <Li><TiTick style={{ color: "#FD8F8F" }} />Specialized in group-based pilgrimage tours, especially Char Dham Yatra</Li>
-                <Li><TiTick style={{ color: "#FD8F8F" }} />Planned operations to serve 800+ devotees in the 2026 season</Li>
+                {whoWeAre.stats.map((stat, index) => (
+                    <Li key={index}><TiTick style={{ color: "#FD8F8F" }} />{stat}</Li>
+                ))}
             </Ul>
-            <P> Every journey we design is backed by learning, ground experience, and on-field execution.</P>
+            <P>{whoWeAre.outro}</P>
         </Div>
     )
 }

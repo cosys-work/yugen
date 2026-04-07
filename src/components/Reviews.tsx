@@ -3,7 +3,7 @@
 import styled from 'styled-components'
 import Carousel from 'react-bootstrap/Carousel'
 import { Heading } from './Heading'
-import { Reviews } from './ReviewsList'
+import reviewsContent from '@/content/reviews.json'
 
 const Container = styled.div`
   background-color: #fdf5e6;
@@ -85,18 +85,14 @@ const CardText = styled.div`
   line-height: 1.6;
 `
 
-interface Review {
-  id: number;
-  name: string;
-  description: string;
-}
-
 const ReviewsComp = () => {
+  const { items } = reviewsContent;
+
   return (
     <Container>
       <Heading heading={"Testimonials"} />
       <CarouselContainer>
-        {Reviews.map((review: Review) =>
+        {items.map((review) =>
           <Carousel.Item key={review.id}>
             <CenterWrapper>
               <CardContainer>
