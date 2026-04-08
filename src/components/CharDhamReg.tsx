@@ -50,7 +50,7 @@ const CharDhamReg = () => {
                                 Registration typically begins 1–2 months before the temple opening dates. For 2026, Char Dham temples are expected to open around late April to early May, depending on Akshay Tritiya and official announcements from temple committees. Pilgrims are advised to register early, especially for Kedarnath, as daily capacity limits apply.
                                 <br /><br />
                                 <strong>How to Register Online</strong><br />
-                                <ol typeof='1'>
+                                <ol>
                                     <li>  Visit the official Uttarakhand Tourism website.</li>
                                     <li>Enter personal details like name, mobile number, age, and ID type.</li>
                                     <li> Upload a valid ID proof (Aadhaar, Passport, Driving License, Voter ID).</li>

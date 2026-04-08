@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import headerImg from "@/assets-webp/Char Dham Yatra Family Package (1).webp";
-import mobileImage from "@/assets-webp/Header/Header_Mobile.webp";
+import mobileImage from "@/assets-webp/Header/Header_Mobile-new.webp";
 
 const HeaderWrapper = styled.div`
   width: 100%;
@@ -28,7 +28,7 @@ export function Header() {
       <picture>
         <source srcSet={mobileImage.src} media="(max-width:660px)" />
         <img
-          src={headerImg.src}
+          src={mobileImage.src}
           alt="Char Dham Yatra Family Package"
           width="100%"
           height="100vh"

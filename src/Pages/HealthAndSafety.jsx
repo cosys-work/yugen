@@ -1,5 +1,5 @@
 import React from 'react'
-import { SubHeading } from '../Components/SubHeading'
+import { SubHeading } from '../components/SubHeading'
 import styled from 'styled-components'
 
 const P = styled.p`

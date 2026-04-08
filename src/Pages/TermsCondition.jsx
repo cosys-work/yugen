@@ -1,5 +1,5 @@
 import React from 'react'
-import Terms from '../Components/Terms'
+import Terms from '../components/Terms'
 
 const TermsCondition = () => {
     return (

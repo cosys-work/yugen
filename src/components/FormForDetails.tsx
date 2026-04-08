@@ -122,9 +122,9 @@ const FormForDetails = () => {
     };
 
     return (
-        <Div>
+        <Div suppressHydrationWarning>
             <SubHeading subHeading={"fill out the form for any enquiry and get best travel deals! "} style={{ color: "white", padding: "2rem 2rem 0rem" }} />
-            <FormWrapper autoComplete='off' onSubmit={handleSubmit}>
+            <FormWrapper autoComplete='off' onSubmit={handleSubmit} suppressHydrationWarning>
                 {errorMessage && <h4 style={{ color: '#ff4d4d' }}>{errorMessage}</h4>}
                 {/* {showSuccess && <h4 style={{ color: '#2ecc71' }}>Form submitted successfully!</h4>} */}
                 <input type='text' className="form-control mb-2" name="username" value={formData.username} placeholder="Your Name" onChange={handleChange} required />

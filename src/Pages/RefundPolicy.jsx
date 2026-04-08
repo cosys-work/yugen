@@ -1,5 +1,5 @@
 import React from 'react'
-import Refund from '../Components/Refund'
+import Refund from '../components/Refund'
 
 const RefundPolicy = () => {
     return (
