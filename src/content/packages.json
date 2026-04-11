@@ -8,8 +8,8 @@
       "time": "9N/10D",
       "included": ["🍛 meals", "🚗 sightseeing", "🏨 hotel"],
       "packages": [
-        { "type": "Economic", "price": "₹18,499/pp" },
-        { "type": "Deluxe", "price": "₹24,499/pp" },
+        { "type": "Economic", "price": "₹18,500/pp" },
+        { "type": "Deluxe", "price": "₹24,500/pp" },
         { "type": "Premium", "price": "Price on request" }
       ]
     },
@@ -21,8 +21,8 @@
       "time": "8N/9D",
       "included": ["🍛 meals", "🚗 sightseeing", "🏨 hotel"],
       "packages": [
-        { "type": "Economic", "price": "₹18,499/pp" },
-        { "type": "Deluxe", "price": "₹24,499/pp" },
+        { "type": "Economic", "price": "₹18,500/pp" },
+        { "type": "Deluxe", "price": "₹24,500/pp" },
         { "type": "Premium", "price": "Price on request" }
       ]
     },
@@ -54,7 +54,7 @@
     },
     {
       "id": 6,
-      "category": "do dham",
+      "category": "Do Dham",
       "image": "PackageImage/image6.webp",
       "title": "Kedarnath Badrinath Private tour by Road from Haridwar/Dehradun",
       "time": "4N/5D",
@@ -67,13 +67,13 @@
     },
     {
       "id": 7,
-      "category": "do dham",
+      "category": "Do Dham",
       "image": "PackageImage/image7.webp",
       "title": "Kedarnath Badrinath Private tour by Road from Delhi",
       "time": "6N/7D",
       "included": ["🍛 meals", "🚗 sightseeing"],
       "packages": [
-        { "type": "Economic", "price": "₹ 12,999/pp" },
+        { "type": "Economic", "price": "₹12,999/pp" },
         { "type": "Deluxe", "price": "₹19,999/pp" },
         { "type": "Premium", "price": "Price on request" }
       ]
@@ -93,7 +93,7 @@
     },
     {
       "id": 10,
-      "category": "kedarnath dham",
+      "category": "Kedarnath dham",
       "image": "PackageImage/image10.webp",
       "title": "Kedarnath Yatra From Haridwar / Dehradun",
       "time": "3N/4D",
@@ -109,10 +109,10 @@
       "category": "kedarnath dham",
       "image": "PackageImage/image12.webp",
       "title": "Kedarnath Yatra From Delhi",
-      "time": "4N/5D",
+      "time": "3N/4D",
       "included": ["🍛 meals", "🚗 sightseeing", "🏨 hotel"],
       "packages": [
-        { "type": "Economic", "price": "₹12,999/pp" },
+        { "type": "Economic", "price": "₹7,999/pp" },
         { "type": "Deluxe", "price": "₹17,999/pp" },
         { "type": "Premium", "price": "Price on request" }
       ]
