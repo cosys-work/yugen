@@ -86,7 +86,7 @@ const FormForDetails = () => {
         setIsSubmitting(true);   // Start loading
 
         try {
-            const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/user/data`, {
+            const response = await fetch("/api/user/data", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
