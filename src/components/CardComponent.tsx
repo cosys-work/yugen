@@ -1,5 +1,5 @@
 import { Button, Card, Col, Row } from "react-bootstrap"
-import { details } from "./package"
+import packagesContent from "@/content/packages.json"
 import styled from "styled-components"
 import { PackageCard } from "./PackageCard"
 import { Buttons } from "./Buttons"
@@ -78,18 +78,22 @@ margin-top:.7rem;
 text-transform:capitialize;
 `
 export const CardComponent = () => {
+    const details = packagesContent.items.map((item) => ({
+        ...item,
+        imageUrl: `/assets-webp/${item.image}`
+    }));
 
     return (
         <HeroContainer className="g-4">
-            <Heading heading={"our packages"} />
+            <Heading heading={packagesContent.heading} />
             {details.map(detail => (
                 <Col xs={12} md={6} lg={4} key={detail.id}>
                     <MainContainer key={detail.id}>
                         <Container>
                             <ImageWrapper className="image">
                                 <Image
-                                    src={typeof detail.imageUrl === "string" ? detail.imageUrl : detail.imageUrl.src}
-                                    alt="card image1"
+                                    src={detail.imageUrl}
+                                    alt={detail.title}
                                 />
                             </ImageWrapper>
                             <TextWrapper className="text">
@@ -100,7 +104,7 @@ export const CardComponent = () => {
                                 ))}
                             </TextWrapper>
                         </Container>
-                        <ListP>Itinerary avaiable on request</ListP>
+                        <ListP>Itinerary available on request</ListP>
                         <hr style={{ margin: "0" }} />
                         <PackageContainer>
                             {detail.packages.map((pkg, index) =>
@@ -109,9 +113,7 @@ export const CardComponent = () => {
                                 price={pkg.price} />))}
                         </PackageContainer>
                     </MainContainer>
-                    {/* <Buttons type={type} /> */}
                 </Col>
             ))}
-
         </HeroContainer>)
 }

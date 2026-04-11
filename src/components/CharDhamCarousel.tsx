@@ -1,13 +1,15 @@
-
-import { details } from './package'
+import packagesContent from "@/content/packages.json"
 import CardComponentCarousel from './CardComponentCarousel'
 
 const CharDhamCarousel = () => {
-    const charDhamCarouselSlide = details.filter(
-        item => item.category === "char dham"
-    )
+    const charDhamSlides = packagesContent.items
+        .filter((item) => item.category.toLowerCase() === "char dham")
+        .map((item) => ({
+            ...item,
+            imageUrl: `/assets-webp/${item.image}`
+        }))
     return (
-        <CardComponentCarousel title={"Char dham Yatra"} slides={charDhamCarouselSlide} />
+        <CardComponentCarousel title={"Char dham Yatra"} slides={charDhamSlides} />
     )
 }
 
