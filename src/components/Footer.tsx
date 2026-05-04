@@ -3,7 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 import bgImage2 from "@/assets-webp/Background-color/bg1.webp";
 import logo from "@/assets-webp/Logo/YugenIndiaLogo.webp";
-import logo2 from "@/assets-webp/Logo/skyLinkLogo.webp";
 
 const Div = styled.div`
   margin-top: clamp(3rem, 2vw, 5rem);
@@ -72,7 +71,7 @@ export function Footer() {
       <P>
         powered by:{" "}
         <Link href="/">
-          <StyledImage src={logo2} alt="SkyLink" />
+          <StyledImage src={logo} alt="Yugen India" />
         </Link>
       </P>
     </Div>
