@@ -67,13 +67,6 @@ export function Footer() {
       <LinkIs href="/privacy">Privacy Policy</LinkIs>
       <LinkIs href="/refund">Refund Policy</LinkIs>
       <LinkIs href="/terms">Terms and Conditions</LinkIs>
-
-      <P>
-        powered by:{" "}
-        <Link href="/">
-          <StyledImage src={logo} alt="Yugen India" />
-        </Link>
-      </P>
     </Div>
   );
 }
