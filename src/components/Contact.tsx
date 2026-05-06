@@ -20,8 +20,7 @@ export function Contact() {
     <div>
       <Title>Yugen India Travel</Title>
       <P>
-        Location: HEAD OFFICE :- 118,VATS MARKET MADHUBAN CHOWK NEAR PITAMPURA
-        METRO DELHI 110034
+        Location: HEAD OFFICE :- Yugen India Travel, 610 Sheetal Paradise  Near Tanatan Dhaba, Ayodhya Bypass  Bhopal, Madhya Pradesh – 462041  India
       </P>
       <P>
         CORPRATE OFFICE - SLR COMPLEX,1ST FLOOR, INDRA GANDHI ROAD, MEDCHAL,
