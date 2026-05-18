@@ -33,7 +33,8 @@ const Button = styled.button`
 export const Buttons = ({ type }: ButtonsProps) => {
     const [showForm, setShowForm] = useState(false)
 
-    const phoneNumber = `${process.env.NEXT_PUBLIC_PHONE_NUMBER}`
+    const phoneNumber = "918770872054";
+
     const whatsappMessage = `Hi, I'm interested in your ${type} Char Dham Package. Please share details.`
     const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`
 
