@@ -1,3 +1,4 @@
+import { GoogleTagManager } from '@next/third-parties/google'
 import type { Metadata } from "next";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
@@ -24,8 +25,13 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
+
       <body>
-        <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
+        <GoogleTagManager gtmId="GTM-PMS6BVRQ" />
+
+        <StyledComponentsRegistry>
+          {children}
+        </StyledComponentsRegistry>
       </body>
     </html>
   );
